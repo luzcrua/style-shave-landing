@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -10,7 +9,7 @@ import { ServiceCard } from "@/components/ServiceCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { WhatsAppForm } from "@/components/WhatsAppForm";
 import { useState, useEffect } from "react";
-import { Scissors, Beard, Star, Clock, MapPin, Instagram, Calendar } from "lucide-react";
+import { Scissors, Users, Star, Clock, MapPin, Instagram, Calendar } from "lucide-react";
 
 const services = [
   {
