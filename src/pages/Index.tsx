@@ -590,6 +590,20 @@ const Index = () => {
         </div>
       </footer>
       
+      {/* Credits Footer */}
+      <div className="bg-barber-dark text-gray-400 py-3 text-center text-xs">
+        <div className="container mx-auto">
+          IDEALIZADO POR <a 
+            href="https://instagram.com/arinelsonsantos" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-barber-gold hover:underline transition-all"
+          >
+            ARINELSON SANTOS
+          </a>
+        </div>
+      </div>
+      
       {/* Back to top button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
